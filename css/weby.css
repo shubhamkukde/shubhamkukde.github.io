@@ -1,0 +1,89 @@
+/* body {
+  
+    background-image: url("image/hero3.jpg");
+    
+  } */
+  
+  
+  h4{
+    color: white;
+  }
+  
+  h6 {
+    font-family: 'roboto';
+  }
+  
+  .btn-xl {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+  
+  }
+  
+  .bg-black {
+    background-color: #000 !important;
+    
+  }
+  
+  .rounded-pill {
+    border-radius: 5rem;
+    width: 10rem;
+  }
+  
+  .navbar-custom {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    background-color: rgb(252, 232, 218) ;
+  }
+  
+  
+  .navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+  }
+  
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-decoration: black;
+    font-family: cursive;
+  }
+  
+  
+  
+  header.masthead {
+    overflow: hidden;
+    padding-top: 15rem;
+    padding-bottom: 7rem;
+    
+  }
+  
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 80px !important;
+    color: black;
+    font-family: roboto;
+  }
+  
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2.5rem !important;
+    color: black;
+  }
+  
+  .foot{
+  
+    color: white;
+    margin-top: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+  
+    
+  
+  }
+  
+  
