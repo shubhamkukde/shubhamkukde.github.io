@@ -1,0 +1,16 @@
+body{
+    background-image: url(/image/reg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: initial;
+}
+
+.head{
+    color: white;
+    padding-top: 5%;
+}
+
+.form-group{
+    padding: 2%;
+    
+}
