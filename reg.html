@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/reg.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</head>
+<body background="image/dark.jpg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="head">
+                <h1>Registration Form</h1><br>
+                <p>Please Fill Below Information</p>
+                <form action="#" class="form-group">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Lastname" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Mobile No" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email" required>
+                        
+                    </div>
+                    <div class="form-group">
+                        <p>Select Country</p>
+                        <select name="country" id="country">
+                            <option value="india">India</option>
+                            <option value="australia">Australia</option>
+                            <option value="newzeland">New Zeland</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <input type="textarea" class="form-control" placeholder="Address">
+                        
+                    </div>
+                    <div class="form-group">
+                        <p>Hobbies</p>
+                        <select name="hobbies" id="hobbies">
+                            <optgroup label="Sports">
+                                <option value="cricket">Cricket</option>
+                                <option value="football">Football</option>
+                                <option value="badminton">Badminton</option>
+                                <option value="other">Other</option>
+                            </optgroup>
+                            <Optgroup label="Bollywood">
+                                <option value="horror">Horror</option>
+                                <option value="scific">Science Fiction</option>
+                                <option value="ac">Action</option>
+                            </Optgroup>
+                            <Optgroup label="Hollywood">
+                                <option value="horror">Horror</option>
+                                <option value="scific">Science Fiction</option>
+                                <option value="ac">Action</option>
+                            </Optgroup>
+                        </select>
+                    </div>
+                    <p class="head">Please   Enter   Gender</p>
+                <div class="form-group">
+                        
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+
+                </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="form-control btn btn-primary">Register</button>
+                    </div>
+                    
+                    
+                </form>
+                
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
