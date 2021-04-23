@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+}
+
+.sec{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 300;
+    
+}
+
+.center_block{
+    background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin-left: 450px;
+}
+
+h1{
+    font-family: cursive;
+    font-weight: 700;
+    width: 500;
+    height: 500;
+    margin-top: 5%;
+    font-size: xx-large;
+    color: brown;
+}
+
+.det{
+    font-family: cursive;
+    font-size: large;
+    
+}
+
+.btn{
+    border-radius: 5px;
+    /* color: cornflowerblue; */
+    background-color: cornflowerblue;
+}

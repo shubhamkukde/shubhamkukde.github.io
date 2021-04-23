@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Avtar</title>
+    <link rel="stylesheet" href="avat.css">
+</head>
+<body>
+    <section class="sec">
+        <h1>WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY?</h1>
+        <div class="center_block">
+            <div class="det">
+                <label>Enter Your Name</label><br>
+                <input type="text" name="" id="nid">
+            </div><br>
+            <div class="img">
+                <img src="smarty.jpeg" alt="Image Not found" id="imid" width="200" height="200">
+            </div>
+
+            <button class="btn">Click to get Avtar</button>
+
+        </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
+    <script>
+       $(document).ready(function(){
+           $('.btn').click(function(){
+               const a = $('#nid').val();
+               alert(a);
+               $('#imid').attr('src', `https://joeschmoe.io/api/v1/${a}`);
+           });
+       });
+    </script>
+</body>
+</html>
